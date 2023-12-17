@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #add8e6;
+    margin: 10px;
+}
+
+.column {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+.column h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    line-height: 1.2;
+    padding: 0px 10px 0px 10px;
+}
+
+.column p {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 0px 10px 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .column {
+        flex-basis: 100%;
+    }
+}
+
+body {
+    background-color: #add8e6;
+}

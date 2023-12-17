@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgb(13, 154, 159) ;
+   
+}
+
+
+.board-container {
+    display: flex;
+   
+    overflow-y: auto;
+   
+}
+
+.board {
+    display: inline;
+    min-width: 300px;
+    max-width: 400px;
+    height: 100%;
+    background-color: #bdbdbd;
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+
+}
+.board3{
+    display: inline;
+    min-width: 300px;
+    max-width: 400px;
+    height: 100%;
+    background-color: #bdbdbd;
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    overflow: scroll;
+    
+}
+
+
+.board-header {
+    padding: 10px;
+    background-color: #222;
+    text-align: center;
+   
+}
+
+.task {
+    padding: 10px;
+    width:200px;
+    height:470px;
+    
+}
+.task span{
+    font-size: 20px;
+    
+   
+}
+.task1, .task2, .task3, .task4, .task5, .task6{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    width:250px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 80px;
+    
+}
+
+
+.my-boards {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(8, 72, 74);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+   
+ 
+}
+.icons img{
+    margin-top: 35px;
+    display: inline;
+  
+    width:10px;
+    height:10px;
+ 
+}
+.icons span{
+    font-size: 9px;    
+}
+
+.boy{
+    margin-top: -5px;
+}
+.boy img{
+    width:30px;
+    height:30px;
+    
+    margin-left: 220px;
+    margin-top: -25px;
+}
+
+
+  

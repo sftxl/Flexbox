@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: auto;
+  }
+ .av> span {
+    display: block;
+  }
+
+.mav {
+  border-radius: 1em;
+  padding: 1em;
+}
+.av {
+  background-size: 2em;
+  background-position: center;
+  padding-top: 0.3em;
+}
+.av1  div {
+  margin-right: 2.3em;
+}
+ .av2 span {
+  margin-left: 2.3em;
+}
+.av1 {
+    background-image: url(png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: end;
+    
+    
+  }
+  .av2 {
+    background-image: url(png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+ .messAv1,   
+  .messAv1 {
+    border-bottom-left-radius: 0;
+    background-color: #ffb6c1;
+  }
+  .messAv2 {
+    border-bottom-right-radius: 0;
+    background-color: #add8e6;
+  }
+  .timeAv{
+    color: gray;
+  }
